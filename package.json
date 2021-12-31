@@ -1,0 +1,20 @@
+{
+  "name": "casino",
+  "version": "1.0.0",
+  "description": "automation test project for casino demo",
+  "main": "index.js",
+  "author": "Luis Angel Vanegas Martinez (xlavm)",
+  "license": "ISC",
+  "scripts": {
+    "test": "cypress run --headless"
+  },
+  "dependencies": {
+    "cypress": "^8.4.1",
+    "cypress-cucumber-preprocessor": "^4.2.0",
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {},
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
