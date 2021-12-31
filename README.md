@@ -38,7 +38,7 @@ en el folder `cypress/screenplay/` tego mapeadas todas las capas del patrón de 
 
 ## CI - Test
 
-Creo un archivo `ci.yml` dentro de la ruta: `.github/workflows` que contiene las instrucciones necesarias para llevar a cabo la ejecución de un pipeline de CI que se encarga de ejecutar los `Test` sí se hace un `push` o un `Pull Request` a la rama `Main` (Esto es orquestado por `Github Actions` de forma automatizada).
+Creo un archivo `ci.yml` dentro de la ruta: `.github/workflows` que contiene las instrucciones necesarias para llevar a cabo la ejecución de un pipeline de CI que se encarga de ejecutar los `Test` sí se hace un `push` o un `Pull Request` a la rama `Master` (Esto es orquestado por `Github Actions` de forma automatizada).
 
 ### Resultado de Ejecución
 
